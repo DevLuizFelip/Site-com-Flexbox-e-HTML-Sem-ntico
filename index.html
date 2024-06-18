@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="template.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            })
+        };
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="One Medical – Visual Journal.jpg" alt=""></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>One medical is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title"> Emergency Case</div>
+                    <div class="banner_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, cum?</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title"> Doctors Timetable</div>
+                    <div class="banner_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, vel.</div>
+                    <a href="">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title"> Opening Hours</div>
+                    <div class="banner_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, iure.
+                    </div>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body flex">
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="medica.jpg" alt="">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet.
+                                    </div>
+                                    <div class="news_result">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit at
+                                        culpa, officia neque tempore!
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="medica.jpg" alt="">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet.
+                                    </div>
+                                    <div class="news_result">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit at
+                                        culpa, officia neque tempore!
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="medica.jpg" alt="">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet.
+                                    </div>
+                                    <div class="news_result">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit at
+                                        culpa, officia neque tempore!
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">12 DEC 12</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumb">
+                                        <img src="medica.jpg" alt="">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet.
+                                    </div>
+                                    <div class="news_result">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit at
+                                        culpa, officia neque tempore!
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Deparments</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="widget_body"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    ...
+                </div>
+                <div class="fm_2">
+                    ...
+                </div>
+                <div class="fm_3">
+                    ...
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medcenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest Tweets</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - Todos os direitos resrvados by DevLuizFelip
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
